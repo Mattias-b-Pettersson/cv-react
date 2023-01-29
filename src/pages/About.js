@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faNodeJs, faBootstrap, faHtml5, faCss3, faPython, faReact, faGithub, faNpm, faGit } from '@fortawesome/free-brands-svg-icons'
 import styles from "../styles/About.module.css"
+import djangoLogo from '../assets/images/django-logo.png'
 
 function About() {
   return (
@@ -19,51 +20,55 @@ function About() {
             </Col>
             <Col xs={12} lg={6}>
                 <Row>
-                <h2 className='mb-4'>Vad använder jag mig av?</h2>
+                <h2 className='mb-4 text-center'>Vad använder jag mig av?</h2>
                 <Col className=''>
                 
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faJs} className={`${styles.icons} fs-1 w-100`}/>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faJs} className={`fs-1 w-100`}/>
                     <p className='fs-3'>JavaScript</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faReact} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faReact} className={`fs-1 w-100`}/>
                     <p className='fs-3'>React</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faNodeJs} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faNodeJs} className={`fs-1 w-100`}/>
                     <p className='fs-3'>Node.js</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faNpm} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faNpm} className={`fs-1 w-100`}/>
                     <p className='fs-3'>NPM</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faBootstrap} className={`${styles.icons} fs-1 w-100`}/>
-                    <p className='fs-3'>Bootstrap</p>
-                </span>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faPython} className={`fs-1 w-100`}/>
+                    <p className='fs-3'>Python</p>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <img src={djangoLogo} className="mx-auto" height="35" alt="" aria-hidden="true" />
+                    <p className='fs-3'>Django</p>
+                </div>
                 </Col>
                 <Col>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faHtml5} className={`${styles.icons} fs-1 w-100`}/>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faHtml5} className={` fs-1 w-100`}/>
                     <p className='fs-3'>HTML</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faCss3} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faCss3} className={`fs-1 w-100`}/>
                     <p className='fs-3'>CSS</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faPython} className={`${styles.icons} fs-1 w-100`}/>
-                    <p className='fs-3'>Python</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faGit} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faBootstrap} className={`fs-1 w-100`}/>
+                    <p className='fs-3'>Bootstrap</p>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faGit} className={`fs-1 w-100`}/>
                     <p className='fs-3'>Git</p>
-                </span>
-                <span className={`${styles.icons} mt-4 text-center`}>
-                    <FontAwesomeIcon icon={faGithub} className={`${styles.icons} fs-1 w-100`}/>
+                </div>
+                <div className={`${styles.icons} mt-4 text-center`}>
+                    <FontAwesomeIcon icon={faGithub} className={`fs-1 w-100`}/>
                     <p className='fs-3'>GitHub</p>
-                </span>
+                </div>
                 </Col>
                 </Row>    
             </Col>
