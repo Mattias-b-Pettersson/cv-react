@@ -60,16 +60,16 @@ function LandingPage() {
 
                 <motion.div whileHover={{
                 scale: 1.1,
-                transition: { duration: 0.2 },
+                transition: { duration: 0.2},
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</h2>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</h2>
                 </motion.div>
 
                 <motion.div whileHover={{
                 scale: 1.1,
-                transition: { duration: 0.2},
+                transition: { duration: 0.2 },
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</h2>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</h2>
                 </motion.div>
 
                 <motion.div whileHover={{
