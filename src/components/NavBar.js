@@ -31,13 +31,13 @@ function NavBar() {
     }, [lastScrollY]);
 
     return (
-        <Navbar expand="lg" className={`active ${show ? ("d-block") : ("d-none")}`} variant="dark" fixed='top'>
+        <Navbar expand="md" className={`active ${show ? ("d-block") : ("d-none")}`} variant="dark" bg="dark" fixed='top'>
             <Container>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto text-white">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
+                <Navbar.Toggle aria-controls="navbar" />
+                <Navbar.Collapse id="navbar">
+                <Nav className="me-auto">
+                    <Nav.Link href="#home" className='fs-4'>Home</Nav.Link>
+                    <Nav.Link href="#link" className='fs-4'>Link</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
