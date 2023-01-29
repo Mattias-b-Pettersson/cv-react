@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400&display=swap');
+
+.icons > p {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.icons:hover > p {
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.icons:hover {
+    color: orange;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2) rotate(-360deg);
+}
+
+@media screen and (max-width: 768px) {
+    .icons > p{
+        color: black;
+    }
+}
