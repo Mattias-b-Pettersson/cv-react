@@ -1,7 +1,8 @@
 import React from 'react'
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { motion } from "framer-motion"
 import styles from '../styles/LandingPage.module.css'
+import NavBar from '../components/NavBar'
 
 
 function LandingPage() {
@@ -22,7 +23,7 @@ function LandingPage() {
       clearInterval(interval);
     }
     iterations += 1 / 3;
-    }, 50)
+    }, 30)
   }
 
   const onHoverLeave = (event) => {
@@ -32,48 +33,56 @@ function LandingPage() {
 
 
   return (
-    <div className={styles.mask}>
-      <Container className='min-vh-100 d-flex align-items-center'>
-        <Row className='w-100'>
-          <Col xs={12} md={4} className='d-flex align-items-center'>
-            <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-md-auto`}>
-              <div className={`${styles.image}`} />
-            </div>
-          </Col>
-          <Col className='d-flex align-items-center' xs={12} md={4}>
-            <h1 className='d-block text-white mx-auto'>Hej! <br />Mitt namn är <span className={styles.name}>Mattias</span></h1>
-          </Col >
-          <Col xs={12} md={4}>
-            <motion.div whileHover={{
-              scale: 1.1,
-              transition: { duration: 0.2 },
-            }}>
-              <h2 className={`${styles.link} d-block text-muted mx-auto`} data-value="Om mig" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Om mig</h2>
-            </motion.div>
+    <div className={styles.bg}>
+      <div className={styles.mask}>
+        <NavBar />
+        <Container className={`${styles.ContainerHeight} d-flex align-items-center`}>
+          <Row className='w-100'>
+            <Col xs={12} md={4} className='d-flex align-items-center'>
+              <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-md-auto`}>
+                <div className={`${styles.image}`} />
+              </div>
+            </Col>
+            <Col className='d-flex align-items-center px-2' xs={12} md={4}>¨
+              <div>
+                <h1 className='d-block text-white mx-auto'>Hej! <br />Mitt namn är <span className={styles.name}>Mattias</span></h1>
+                <p className='lead text-white'>Jag är Fullstack utvecklare med fokus på React som frontend och Django som backend.</p>
+              </div>
+            </Col >
+            <Col xs={12} md={4}>
+              <div>
+                <motion.div whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto`} data-value="Om mig" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Om mig</h2>
+                </motion.div>
 
-            <motion.div whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.2 },
-            }}>
-              <h2 className={`${styles.link} d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</h2>
-            </motion.div>
+                <motion.div whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.2 },
+                }}>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</h2>
+                </motion.div>
 
-            <motion.div whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.2},
-            }}>
-              <h2 className={`${styles.link} d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</h2>
-            </motion.div>
+                <motion.div whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.2},
+                }}>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</h2>
+                </motion.div>
 
-            <motion.div whileHover={{
-            scale: 1.1,
-            transition: { duration: 0.2 },
-            }}>
-              <h2 className={`${styles.link} d-block text-muted mx-auto mt-4`} data-value="Kontakt" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Kontakt</h2>
-            </motion.div>
-          </Col>
-        </Row>
-      </Container>
+                <motion.div whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.2 },
+                }}>
+                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Kontakt" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Kontakt</h2>
+                </motion.div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   )
 }

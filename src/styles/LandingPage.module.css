@@ -1,9 +1,23 @@
+.ContainerHeight {
+    min-height: calc(100vh - 56px);
+}
+
+
 .name {
     color: orange;
 }
 
 .mask {
     background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+
+.bg {
+    background-image: url(../assets/images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .image {
@@ -22,7 +36,6 @@
     border-radius: 50%;
     background-color: orange;
 }
-
 
 .link {
     font-family: monospace, sans-serif;
