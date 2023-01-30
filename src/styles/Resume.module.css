@@ -1,0 +1,6 @@
+.image {
+    background-image: url(../assets/images/man-sitting-at-desk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
