@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -8,11 +9,20 @@ import Resume from './pages/Resume';
 function App() {
   return (
     <div className="App">
-      <LandingPage />
-      <About />
-      <Resume />
-      <Portfolio />
-      <Contact />
+      <Routes>
+        <Route 
+        path="/cv-react" 
+        element={
+          <>
+          <LandingPage />
+          <About />
+          <Resume />
+          <Portfolio />
+          <Contact />
+          </>
+        } 
+        />
+      </Routes>
     </div>
   );
 }
