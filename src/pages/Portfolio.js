@@ -109,7 +109,7 @@ function Portfolio() {
                 <h2 className='mt-5'>Saikō No Sushi</h2>
                 <p>
                     Hemsida riktat mot resturangen Saikō No Sushi.
-                    <a href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' target='_blank' rel='noreferrer'>GitHub</a>
+                    <a href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' target='_blank' rel='noreferrer'>GitHub</a>
                 </p>
                 <h4>Techstack som använts</h4>
                 <div className='d-inline'>
