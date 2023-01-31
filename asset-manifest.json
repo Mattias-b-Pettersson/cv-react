@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cb4b8a2.css",
+    "main.js": "/static/js/main.710703c2.js",
+    "static/js/787.839f4c08.chunk.js": "/static/js/787.839f4c08.chunk.js",
+    "static/media/yamato-image.png": "/static/media/yamato-image.a03f456de74e31b85785.png",
+    "static/media/bg-image.jpg": "/static/media/bg-image.18a98286186890fb3840.jpg",
+    "static/media/profile-picture.jpg": "/static/media/profile-picture.2688819aafdd38fd9491.jpg",
+    "static/media/snsushi-image.png": "/static/media/snsushi-image.336927898b91491948ec.png",
+    "static/media/Todo-image.png": "/static/media/Todo-image.e0b60997e6cc9854cf42.png",
+    "static/media/man-sitting-at-desk.png": "/static/media/man-sitting-at-desk.332b6491cb6755e272ca.png",
+    "static/media/rpsls-image.png": "/static/media/rpsls-image.6125d2f013ec81b3de88.png",
+    "static/media/django-logo.png": "/static/media/django-logo.4c677b78d12c96ea7add.png",
+    "static/media/jquery-logo.png": "/static/media/jquery-logo.347f93d8463ec15aa303.png",
+    "static/media/tic-tac-toe-image.png": "/static/media/tic-tac-toe-image.ac9a9b3eb25eb3022fba.png",
+    "index.html": "/index.html",
+    "main.5cb4b8a2.css.map": "/static/css/main.5cb4b8a2.css.map",
+    "main.710703c2.js.map": "/static/js/main.710703c2.js.map",
+    "787.839f4c08.chunk.js.map": "/static/js/787.839f4c08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb4b8a2.css",
+    "static/js/main.710703c2.js"
+  ]
+}
