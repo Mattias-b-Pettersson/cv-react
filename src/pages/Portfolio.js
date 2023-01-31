@@ -26,7 +26,7 @@ function Portfolio() {
                 <a href='https://github.com/Mattias-b-Pettersson/todo' target='_blank' rel='noreferrer'>GitHub Frontend</a>
                 <br />
                 <a href='https://github.com/Mattias-b-Pettersson/todos-backend' target='_blank' rel='noreferrer'>GitHub Backend</a>
-                <h4 className='mt-4'>Techstack som använts</h4>
+                <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faReact} className={`fs-2 me-3`} alt="react"/>
                     <FontAwesomeIcon icon={faBootstrap} className={`fs-2 me-3`} alt="bootstrap"/>
@@ -57,7 +57,7 @@ function Portfolio() {
                     Sidan är byggd med Django som är ett Python MVC framework. 
                 </p>
                 <a href='https://github.com/Mattias-b-Pettersson/Sushi-Yamato' target='_blank' rel='noreferrer'>GitHub</a>
-                <h4 className='mt-4'>Techstack som använts</h4>
+                <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                 <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html"/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-2 me-3`} alt="css"/>
@@ -73,7 +73,7 @@ function Portfolio() {
                     Tic Tac Toe spel som är skapat med Python. 
                 </p>
                 <a href='https://github.com/Mattias-b-Pettersson/tic-tac-toe2.0' target='_blank' rel='noreferrer'>GitHub</a>
-                <h4 className='mt-4'>Techstack som använts</h4>
+                <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faPython} className={`fs-1 me-3`}/>
                 </div>
@@ -94,9 +94,9 @@ function Portfolio() {
                 <h2 className='mt-5'>Rock paper scissors lizard spock</h2>
                 <p>
                     Rock paper scissors lizard spock spel som är skapat med JavaScript. 
-                    <a href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' target='_blank' rel='noreferrer'>GitHub</a>
                 </p>
-                <h4>Techstack som använts</h4>
+                <a href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' target='_blank' rel='noreferrer'>GitHub</a>
+                <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-1`}/>
@@ -109,9 +109,9 @@ function Portfolio() {
                 <h2 className='mt-5'>Saikō No Sushi</h2>
                 <p>
                     Hemsida riktat mot resturangen Saikō No Sushi.
-                    <a href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' target='_blank' rel='noreferrer'>GitHub</a>
                 </p>
-                <h4>Techstack som använts</h4>
+                <a href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' target='_blank' rel='noreferrer'>GitHub</a>
+                <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-1`}/>
