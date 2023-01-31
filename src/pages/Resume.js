@@ -18,7 +18,7 @@ function Resume() {
                     <p>IT-Support tekniker, Second Line/Back office</p>
                 </AnimateWhenInView>
                 <AnimateWhenInView>
-                    <h3 className='mb-0'>Sekretess belagd tjänst</h3>
+                    <h3 className='mb-0'>Sekretess belagd tjänst, Teleperformance</h3>
                     <p className='text-muted mt-0'>september 2018 - juni 2019</p>
                     <p>IT-Support tekniker inom iOS och Mac</p>
                 </AnimateWhenInView>
