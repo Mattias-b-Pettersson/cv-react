@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faBootstrap, faHtml5, faCss3, faPython, faReact, faGithub, faNpm, faGit } from '@fortawesome/free-brands-svg-icons'
 import styles from "../styles/About.module.css"
 import djangoLogo from '../assets/images/django-logo.png'
+import jQueryLogo from '../assets/images/jquery-logo.png'
 import AnimateWhenInView from '../utils/AnimateWhenInView'
 
 function About() {
@@ -31,6 +32,10 @@ function About() {
                             <div className={`${styles.icons} mt-4 text-center`}>
                                 <FontAwesomeIcon icon={faJs} className={`fs-1 w-100`}/>
                                 <p className='fs-3'>JavaScript</p>
+                            </div>
+                            <div className={`${styles.icons} mt-4 text-center`}>
+                                <img src={jQueryLogo} className="mx-auto" height="35" alt="" aria-hidden="true" />
+                                <p className='fs-3'>jQuery</p>
                             </div>
                             <div className={`${styles.icons} mt-4 text-center`}>
                                 <FontAwesomeIcon icon={faReact} className={`fs-1 w-100`}/>
