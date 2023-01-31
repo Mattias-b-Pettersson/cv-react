@@ -6,8 +6,8 @@ import styles from '../styles/Resume.module.css'
 
 function Resume() {
   return (
-    <Container>
-        <Row>
+    <Container className='border-top mt-5'>
+        <Row className="mt-5">
             <Col xs={12} md={6}>
                 <AnimateWhenInView>
                     <h1>Resume</h1>
