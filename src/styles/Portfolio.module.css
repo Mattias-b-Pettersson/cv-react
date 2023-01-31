@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400&display=swap');
+
+.todoImage {
+    background-image: url(../assets/project-images/Todo-image.png);
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.yamatoImage {
+    background-image: url(../assets/project-images/yamato-image.png);
+}
+
+.ticTacToeImage {
+    background-image: url(../assets/project-images/tic-tac-toe-image.png);
+}
+
+.rpslsImage {
+    background-image: url(../assets/project-images/rpsls-image.png);
+}
+
+.snSushiImage {
+    background-image: url(../assets/project-images/snsushi-image.png);
+}
+
+.icons > p {
+    font-family: "Quicksand", sans-serif;
+}
+
+.icons {
+    filter: grayscale(1.0);
+}
+
+@media screen and (max-width: 768px) {
+    .icons > p{
+        color: black;
+    }
+}
