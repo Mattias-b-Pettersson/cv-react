@@ -4,7 +4,7 @@ import styles from '../styles/Resume.module.css'
 
 function Resume() {
   return (
-    <Container className='border-top mt-5'>
+    <Container className='border-top mt-5' id="resume">
         <Row className="mt-5">
             <Col xs={12} md={6}>
                 <div>

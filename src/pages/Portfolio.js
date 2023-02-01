@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 function Portfolio() {
   return (
-    <Container className='border-top mt-5'>
+    <Container className='border-top mt-5' id="portfolio">
         <h1 className='mt-5'>Portfolio</h1>
         <p className='lead'>Här kan ni se mina projekt jag jobbat på. 
         <br />

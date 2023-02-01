@@ -1,3 +1,33 @@
 .nav a:hover {
     color: #fff !important;
 }
+
+.navLink {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+}
+
+.navLink:hover {
+    color: orange !important;
+    cursor: pointer;
+}
+
+.activeLink {
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.upArrow {
+    position: fixed;
+    font-size: 1.5rem;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

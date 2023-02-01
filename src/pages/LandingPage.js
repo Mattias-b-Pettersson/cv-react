@@ -5,6 +5,7 @@ import styles from '../styles/LandingPage.module.css'
 import NavBar from '../components/NavBar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-scroll'
 
 
 function LandingPage() {
@@ -38,7 +39,7 @@ function LandingPage() {
     <div className={styles.bg}>
       <div className={styles.mask}>
         <NavBar />
-        <Container className={`${styles.ContainerHeight} d-flex align-items-center`}>
+        <Container id="home" className={`${styles.ContainerHeight} d-flex align-items-center`}>
           <Row className='w-100'>
             <Col xs={12} md={4} className='d-flex align-items-center'>
               <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-md-auto`}>
@@ -63,28 +64,28 @@ function LandingPage() {
                   scale: 1.1,
                   transition: { duration: 0.2 },
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto`} data-value="Om mig" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Om mig</h2>
+                  <Link to="about" className={`${styles.link} fs-2 d-block text-muted mx-auto`} data-value="Om mig" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Om mig</Link>
                 </motion.div>
 
                 <motion.div whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.2},
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</h2>
+                  <Link to="resume" className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Resume" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Resume</Link>
                 </motion.div>
 
                 <motion.div whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.2 },
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</h2>
+                  <Link to="portfolio" className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Portfolio" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Portfolio</Link>
                 </motion.div>
 
                 <motion.div whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.2 },
                 }}>
-                  <h2 className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Kontakt" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Kontakt</h2>
+                  <Link to="contact" className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} data-value="Kontakt" onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>Kontakt</Link>
                 </motion.div>
               </div>
             </Col>

@@ -73,8 +73,8 @@ function Contact() {
     return (
         sentMail ? (
             <>
-                <div>
-                    <Container className='border-top'>
+                <>
+                    <Container className='border-top' id="contact">
                         <Row className='mt-5'>
                             <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                                 <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>
@@ -95,10 +95,10 @@ function Contact() {
                             animate={{transition: { duration: 2 }, x:[200, 100, 5000], rotate: ["3deg", "-5deg", "-20deg"] }}
                         />
                     </div>
-                </div>
+                </>
             </>
         ) : (
-            <Container className='border-top'>
+            <Container className='border-top' id="contact">
                 <Row className='mt-5'>
                     <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                         <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>

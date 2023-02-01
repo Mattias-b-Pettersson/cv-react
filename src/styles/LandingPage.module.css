@@ -39,6 +39,7 @@
 
 .link {
     font-family: monospace, sans-serif;
+    text-decoration: none;
 }
 
 .link:hover {

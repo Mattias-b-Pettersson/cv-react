@@ -8,7 +8,7 @@ import jQueryLogo from '../assets/images/jquery-logo.png'
 
 function About() {
   return (
-    <Container>
+    <Container id='about'>
         <Row className='mt-5'>
             <Col xs={12} lg={6}>
                     <h2 >Om mig</h2>
