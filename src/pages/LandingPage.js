@@ -41,7 +41,7 @@ function LandingPage() {
         <NavBar />
         <Container id="home" className={`${styles.ContainerHeight} d-flex align-items-center`}>
           <Row className='w-100'>
-            <Col xs={12} md={4} className='d-flex align-items-center'>
+            <Col xs={12} md={4} className='d-flex align-items-center justify-content-center'>
               <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-md-auto`}>
                 <div className={`${styles.image}`} />
               </div>

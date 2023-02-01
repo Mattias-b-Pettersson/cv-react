@@ -45,12 +45,12 @@ function Portfolio() {
                             GitHub Backend
                     </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
-                <div className='d-inline'>
+                <div className='mb-4'>
                     <FontAwesomeIcon icon={faReact} className={`fs-2 me-3`} alt="react"/>
                     <FontAwesomeIcon icon={faBootstrap} className={`fs-2 me-3`} alt="bootstrap"/>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html"/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-2 me-3`} alt="css"/>
-                    <img src={djangoLogo} className=" pb-2" height="45" alt="django" aria-hidden="true" />
+                    <img src={djangoLogo} className="pb-2" height="45" alt="django" aria-hidden="true" />
                 </div>
             </Col>
             <Col xs={12} md={6}>
@@ -60,12 +60,12 @@ function Portfolio() {
             </Col>
         </Row>
         <Row className="mt-5">
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="order-2 order-md-1">
                 <div className={`${styles.yamatoImage} ${styles.image}`}>
                     {/* image div */}
                 </div>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="order-1 order-md-2">
                 <h2 className='mt-5'>Sushi Yamato</h2>
                 <p className='mb-0'>
                     Hemsida som är skapat till en resturang som heter Sushi Yamato. 
@@ -85,11 +85,11 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
-                <div className='d-inline'>
+                <div className='mb-4'>
                 <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html"/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-2 me-3`} alt="css"/>
                     <FontAwesomeIcon icon={faBootstrap} className={`fs-2 me-3`} alt="bootstrap"/>
-                    <img src={djangoLogo} className=" pb-2" height="45" alt="django" aria-hidden="true" />
+                    <img src={djangoLogo} className="pb-2" height="45" alt="django" aria-hidden="true" />
                 </div>
             </Col>
         </Row>
@@ -110,8 +110,8 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
-                <div className='d-inline'>
-                    <FontAwesomeIcon icon={faPython} className={`fs-1 me-3`}/>
+                <div className='mb-4'>
+                    <FontAwesomeIcon icon={faPython} className={`fs-1 me-3 mb-5`}/>
                 </div>
             </Col>
             <Col xs={12} md={6}>
@@ -121,12 +121,12 @@ function Portfolio() {
             </Col>
         </Row>
         <Row className="mt-5">
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="order-2 order-md-1">
                 <div className={`${styles.rpslsImage} ${styles.image}`}>
                     {/* image div */}
                 </div>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="order-1 order-md-2">
                 <h2 className='mt-5'>Rock paper scissors lizard spock</h2>
                 <p>
                     Rock paper scissors lizard spock spel som är skapat med JavaScript. 
@@ -143,7 +143,7 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
-                <div className='d-inline'>
+                <div className='mb-4'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-1`}/>
                     <FontAwesomeIcon icon={faJs} className={`fs-1 ms-3`}/>
@@ -167,7 +167,7 @@ function Portfolio() {
                         GitHub
                 </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
-                <div className='d-inline'>
+                <div className='mb-4'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
                     <FontAwesomeIcon icon={faCss3} className={`fs-1`}/>
                 </div>
