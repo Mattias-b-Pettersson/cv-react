@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import styles from '../styles/LandingPage.module.css'
 import NavBar from '../components/NavBar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 function LandingPage() {

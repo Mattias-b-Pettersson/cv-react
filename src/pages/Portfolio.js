@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faBootstrap, faHtml5, faCss3, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../styles/Portfolio.module.css'
 import djangoLogo from '../assets/images/django-logo.png'
 import { motion } from 'framer-motion'
