@@ -3,6 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { motion } from "framer-motion"
 import styles from '../styles/LandingPage.module.css'
 import NavBar from '../components/NavBar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 function LandingPage() {
@@ -47,6 +49,12 @@ function LandingPage() {
               <div>
                 <h1 className='d-block text-white mx-auto'>Hej! <br />Mitt namn är <span className={styles.name}>Mattias</span></h1>
                 <p className='lead text-white'>Jag är Fullstack utvecklare med fokus på React som frontend och Django som backend.</p>
+                <a href='https://www.linkedin.com/in/mattias-pettersson-80b558180' target="blank" rel='noreferrer'>
+                  <FontAwesomeIcon icon={faLinkedin} className={`${styles.icon} me-2 fs-3`} />
+                </a>
+                <a href='https://github.com/Mattias-b-Pettersson' target="blank" rel='noreferrer'>
+                  <FontAwesomeIcon icon={faGithubSquare} className={`${styles.icon} ms-2 fs-3`} />
+                </a>
               </div>
             </Col >
             <Col xs={12} md={4}>
