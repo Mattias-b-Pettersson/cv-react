@@ -113,7 +113,7 @@ function LandingPage() {
                 }}>
                   <Link 
                     offset={-100}
-                    o="contact" 
+                    to="contact" 
                     className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} 
                     data-value="Kontakt" 
                     onMouseEnter={onHoverEnter} 
