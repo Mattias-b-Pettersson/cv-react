@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@400&display=swap');
+
 .App {
   min-height: 100vh;
 }
 
+h1, h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
