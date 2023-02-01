@@ -78,10 +78,10 @@ function NavBar() {
                       </Link>
                       <Link 
                       to='contact'
-                      offset={-300}
+                      offset={-100}
                       spy={true}
                       className={`${styles.navLink} me-3`}
-                      activeClass={styles.activeLink}
+                      activeClass="border-bottom"
                       >
                         Kontakt
                       </Link>

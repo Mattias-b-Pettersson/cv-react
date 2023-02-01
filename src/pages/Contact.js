@@ -98,7 +98,7 @@ function Contact() {
                 </>
             </>
         ) : (
-            <Container className='border-top' id="contact">
+            <Container className='border-top mb-5 pb-5' id="contact">
                 <Row className='mt-5'>
                     <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                         <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>
