@@ -37,6 +37,19 @@
     filter: grayscale(1.0);
 }
 
+.btnColor {
+    font-family: "Quicksand", sans-serif !important;
+    background-color: orange !important;
+    border: none !important;
+    color: black !important;
+
+}
+
+.btnColor:hover {
+    background-color: rgb(243, 159, 2) !important;
+
+}
+
 @media screen and (max-width: 768px) {
     .icons > p{
         color: black;

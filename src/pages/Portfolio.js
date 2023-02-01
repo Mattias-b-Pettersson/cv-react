@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faBootstrap, faHtml5, faCss3, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import styles from '../styles/Portfolio.module.css'
 import djangoLogo from '../assets/images/django-logo.png'
+import { motion } from 'framer-motion'
 
 function Portfolio() {
   return (
@@ -23,9 +24,26 @@ function Portfolio() {
                 <p className='mt-3'>
                     Appen är byggd med React som front end och Django restframework som backend.
                 </p>
-                <a href='https://github.com/Mattias-b-Pettersson/todo' target='_blank' rel='noreferrer'>GitHub Frontend</a>
-                <br />
-                <a href='https://github.com/Mattias-b-Pettersson/todos-backend' target='_blank' rel='noreferrer'>GitHub Backend</a>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://github.com/Mattias-b-Pettersson/todo' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "-5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "5deg" }}
+                    >
+                            GitHub Frontend
+                    </motion.a>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://github.com/Mattias-b-Pettersson/todos-backend' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                            GitHub Backend
+                    </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faReact} className={`fs-2 me-3`} alt="react"/>
@@ -56,7 +74,16 @@ function Portfolio() {
                 <p className='mt-3'>
                     Sidan är byggd med Django som är ett Python MVC framework. 
                 </p>
-                <a href='https://github.com/Mattias-b-Pettersson/Sushi-Yamato' target='_blank' rel='noreferrer'>GitHub</a>
+                <motion.a 
+                    className={`${styles.btnColor} me-4 btn`} 
+                    href='https://github.com/Mattias-b-Pettersson/Sushi-Yamato' 
+                    target='_blank' 
+                    rel='noreferrer' 
+                    whileHover={{scale: 1.1, rotate: "5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                >
+                    GitHub
+                </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                 <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html"/>
@@ -72,7 +99,16 @@ function Portfolio() {
                 <p>
                     Tic Tac Toe spel som är skapat med Python. 
                 </p>
-                <a href='https://github.com/Mattias-b-Pettersson/tic-tac-toe2.0' target='_blank' rel='noreferrer'>GitHub</a>
+                <motion.a 
+                    className={`${styles.btnColor} me-4 btn`} 
+                    href='https://github.com/Mattias-b-Pettersson/tic-tac-toe2.0' 
+                    target='_blank' 
+                    rel='noreferrer' 
+                    whileHover={{scale: 1.1, rotate: "-5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "5deg" }}
+                >
+                    GitHub
+                </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faPython} className={`fs-1 me-3`}/>
@@ -95,7 +131,17 @@ function Portfolio() {
                 <p>
                     Rock paper scissors lizard spock spel som är skapat med JavaScript. 
                 </p>
-                <a href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' target='_blank' rel='noreferrer'>GitHub</a>
+                <motion.a
+                    type='button'
+                    className={`${styles.btnColor} me-4 btn`} 
+                    whileHover={{scale: 1.1, rotate: "5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "-5deg" }} 
+                    href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' 
+                    target='_blank' 
+                    rel='noreferrer'
+                >
+                    GitHub
+                </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
@@ -110,7 +156,16 @@ function Portfolio() {
                 <p>
                     Hemsida riktat mot resturangen Saikō No Sushi.
                 </p>
-                <a href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' target='_blank' rel='noreferrer'>GitHub</a>
+                <motion.a 
+                    className={`${styles.btnColor} me-4 btn`} 
+                    href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' 
+                    target='_blank' 
+                    rel='noreferrer' 
+                    whileHover={{scale: 1.1, rotate: "-5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "5deg" }}
+                >
+                        GitHub
+                </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='d-inline'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
@@ -118,7 +173,7 @@ function Portfolio() {
                 </div>
             </Col>
             <Col xs={12} md={6}>
-            <div className={`${styles.snSushiImage} ${styles.image}`}>
+                <div className={`${styles.snSushiImage} ${styles.image}`}>
                     {/* image div */}
                 </div>
             </Col>
