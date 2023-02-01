@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.2bd96e0e.css",
-    "main.js": "/cv-react/static/js/main.854fe0c9.js",
+    "main.css": "/cv-react/static/css/main.d76411ad.css",
+    "main.js": "/cv-react/static/js/main.48f58e94.js",
     "static/js/787.839f4c08.chunk.js": "/cv-react/static/js/787.839f4c08.chunk.js",
     "static/media/yamato-image.png": "/cv-react/static/media/yamato-image.a03f456de74e31b85785.png",
     "static/media/bg-image.jpg": "/cv-react/static/media/bg-image.18a98286186890fb3840.jpg",
@@ -10,16 +10,17 @@
     "static/media/Todo-image.png": "/cv-react/static/media/Todo-image.e0b60997e6cc9854cf42.png",
     "static/media/man-sitting-at-desk.png": "/cv-react/static/media/man-sitting-at-desk.332b6491cb6755e272ca.png",
     "static/media/rpsls-image.png": "/cv-react/static/media/rpsls-image.6125d2f013ec81b3de88.png",
+    "static/media/envelope.png": "/cv-react/static/media/envelope.653ba7ff218df8a65ae5.png",
     "static/media/django-logo.png": "/cv-react/static/media/django-logo.4c677b78d12c96ea7add.png",
     "static/media/jquery-logo.png": "/cv-react/static/media/jquery-logo.347f93d8463ec15aa303.png",
     "static/media/tic-tac-toe-image.png": "/cv-react/static/media/tic-tac-toe-image.ac9a9b3eb25eb3022fba.png",
     "index.html": "/cv-react/index.html",
-    "main.2bd96e0e.css.map": "/cv-react/static/css/main.2bd96e0e.css.map",
-    "main.854fe0c9.js.map": "/cv-react/static/js/main.854fe0c9.js.map",
+    "main.d76411ad.css.map": "/cv-react/static/css/main.d76411ad.css.map",
+    "main.48f58e94.js.map": "/cv-react/static/js/main.48f58e94.js.map",
     "787.839f4c08.chunk.js.map": "/cv-react/static/js/787.839f4c08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd96e0e.css",
-    "static/js/main.854fe0c9.js"
+    "static/css/main.d76411ad.css",
+    "static/js/main.48f58e94.js"
   ]
 }
