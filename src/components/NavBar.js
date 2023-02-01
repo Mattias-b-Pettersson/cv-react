@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 import styles from '../styles/NavBar.module.css';
 
 function NavBar() {
