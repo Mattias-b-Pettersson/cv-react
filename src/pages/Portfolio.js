@@ -39,10 +39,21 @@ function Portfolio() {
                         href='https://github.com/Mattias-b-Pettersson/todos-backend' 
                         target='_blank' 
                         rel='noreferrer' 
+                        whileHover={{scale: 1.1}} 
+                        whileTap={{ scale: 0.9}}
+                        
+                    >
+                            GitHub Backend
+                    </motion.a>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='http://m-p-todo.herokuapp.com/' 
+                        target='_blank' 
+                        rel='noreferrer' 
                         whileHover={{scale: 1.1, rotate: "5deg"}} 
                         whileTap={{ scale: 0.9, rotate: "-5deg" }}
                     >
-                            GitHub Backend
+                            Live Demo
                     </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='mb-4'>
@@ -79,11 +90,21 @@ function Portfolio() {
                     href='https://github.com/Mattias-b-Pettersson/Sushi-Yamato' 
                     target='_blank' 
                     rel='noreferrer' 
-                    whileHover={{scale: 1.1, rotate: "5deg"}} 
-                    whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    whileHover={{scale: 1.1, rotate: "-5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "5deg" }}
                 >
                     GitHub
                 </motion.a>
+                <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://sushi-yamato.herokuapp.com/' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                            Live Demo
+                    </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='mb-4'>
                 <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html"/>
@@ -109,6 +130,16 @@ function Portfolio() {
                 >
                     GitHub
                 </motion.a>
+                <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://tic-tac-toe-matte.herokuapp.com/' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                            Live Demo
+                    </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='mb-4'>
                     <FontAwesomeIcon icon={faPython} className={`fs-1 me-3 mb-5`}/>
@@ -134,14 +165,24 @@ function Portfolio() {
                 <motion.a
                     type='button'
                     className={`${styles.btnColor} me-4 btn`} 
-                    whileHover={{scale: 1.1, rotate: "5deg"}} 
-                    whileTap={{ scale: 0.9, rotate: "-5deg" }} 
+                    whileHover={{scale: 1.1, rotate: "-5deg"}} 
+                    whileTap={{ scale: 0.9, rotate: "5deg" }} 
                     href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' 
                     target='_blank' 
                     rel='noreferrer'
                 >
                     GitHub
                 </motion.a>
+                <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://mattias-b-pettersson.github.io/RockPaperScissorsLizardSpock-Game/' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                            Live Demo
+                    </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='mb-4'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
@@ -166,6 +207,16 @@ function Portfolio() {
                 >
                         GitHub
                 </motion.a>
+                <motion.a
+                        className={`${styles.btnColor} me-4 btn`} 
+                        href='https://mattias-b-pettersson.github.io/Saiko-no-sushi/' 
+                        target='_blank' 
+                        rel='noreferrer' 
+                        whileHover={{scale: 1.1, rotate: "5deg"}} 
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                            Live Demo
+                    </motion.a>
                 <h4 className='mt-5'>Techstack som använts</h4>
                 <div className='mb-4'>
                     <FontAwesomeIcon icon={faHtml5} className={`fs-1 me-3`}/>
