@@ -19,10 +19,11 @@ function Portfolio() {
                 <p className='mb-0'>
                     Todo app med företag som fokus.
                     I appen kan man skapa todos och tilldela kollegor, sätta status och prio på todon och lägga till filer. 
-                    Det finns även möjlighet att sortera på staus, prio osv.
+                    I vyn där man ser alla Todos finns det möjlighet att sortera på staus, prio osv.
+                    Om man klickar sig in på en Todo så kan man kommentera på todon och ändra i alla fält.
                 </p>
                 <p className='mt-3'>
-                    Appen är byggd med React som front end och Django restframework som backend.
+                    Appen är byggd med React som frontend och Django restframework som backend.
                 </p>
                     <motion.a
                         className={`${styles.btnColor} me-4 btn mt-2`} 
@@ -86,7 +87,7 @@ function Portfolio() {
                     Sidan är byggd med Django som är ett Python MVC framework. 
                 </p>
                 <motion.a 
-                    className={`${styles.btnColor} me-4 btn`} 
+                    className={`${styles.btnColor} me-4 btn mt-2`} 
                     href='https://github.com/Mattias-b-Pettersson/Sushi-Yamato' 
                     target='_blank' 
                     rel='noreferrer' 
@@ -121,7 +122,7 @@ function Portfolio() {
                     Tic Tac Toe spel som är skapat med Python. 
                 </p>
                 <motion.a 
-                    className={`${styles.btnColor} me-4 btn`} 
+                    className={`${styles.btnColor} me-4 btn mt-2`} 
                     href='https://github.com/Mattias-b-Pettersson/tic-tac-toe2.0' 
                     target='_blank' 
                     rel='noreferrer' 
@@ -164,7 +165,7 @@ function Portfolio() {
                 </p>
                 <motion.a
                     type='button'
-                    className={`${styles.btnColor} me-4 btn`} 
+                    className={`${styles.btnColor} me-4 btn mt-2`} 
                     whileHover={{scale: 1.1, rotate: "-5deg"}} 
                     whileTap={{ scale: 0.9, rotate: "5deg" }} 
                     href='https://github.com/Mattias-b-Pettersson/RockPaperScissorsLizardSpock-Game' 
@@ -198,7 +199,7 @@ function Portfolio() {
                     Hemsida riktat mot resturangen Saikō No Sushi.
                 </p>
                 <motion.a 
-                    className={`${styles.btnColor} me-4 btn`} 
+                    className={`${styles.btnColor} me-4 btn mt-2`} 
                     href='https://github.com/Mattias-b-Pettersson/Saiko-no-sushi' 
                     target='_blank' 
                     rel='noreferrer' 
