@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.3baa3eae.css",
-    "main.js": "/cv-react/static/js/main.30e7d802.js",
+    "main.css": "/cv-react/static/css/main.d8a9250a.css",
+    "main.js": "/cv-react/static/js/main.7d3c02ea.js",
     "static/js/787.839f4c08.chunk.js": "/cv-react/static/js/787.839f4c08.chunk.js",
     "static/media/yamato-image.png": "/cv-react/static/media/yamato-image.a03f456de74e31b85785.png",
     "static/media/bg-image.jpg": "/cv-react/static/media/bg-image.18a98286186890fb3840.jpg",
@@ -15,13 +15,14 @@
     "static/media/jquery-logo.png": "/cv-react/static/media/jquery-logo.347f93d8463ec15aa303.png",
     "static/media/tic-tac-toe-image.png": "/cv-react/static/media/tic-tac-toe-image.ac9a9b3eb25eb3022fba.png",
     "static/media/postgres-logo.svg": "/cv-react/static/media/postgres-logo.5a15265a125ae1bceb5fa6e4520e541b.svg",
+    "static/media/layered-waves.svg": "/cv-react/static/media/layered-waves.96c6d54d02487ffe902c53bb05070d73.svg",
     "index.html": "/cv-react/index.html",
-    "main.3baa3eae.css.map": "/cv-react/static/css/main.3baa3eae.css.map",
-    "main.30e7d802.js.map": "/cv-react/static/js/main.30e7d802.js.map",
+    "main.d8a9250a.css.map": "/cv-react/static/css/main.d8a9250a.css.map",
+    "main.7d3c02ea.js.map": "/cv-react/static/js/main.7d3c02ea.js.map",
     "787.839f4c08.chunk.js.map": "/cv-react/static/js/787.839f4c08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3baa3eae.css",
-    "static/js/main.30e7d802.js"
+    "static/css/main.d8a9250a.css",
+    "static/js/main.7d3c02ea.js"
   ]
 }
