@@ -3,7 +3,7 @@ import { faJs, faBootstrap, faHtml5, faCss3, faPython, faReact } from '@fortawes
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../styles/Portfolio.module.css'
-import djangoLogo from '../assets/images/django-logo.png'
+import djangoLogo from '../assets/logos/django-logo.png'
 import { motion } from 'framer-motion'
 
 function Portfolio() {

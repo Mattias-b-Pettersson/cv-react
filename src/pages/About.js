@@ -3,9 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faBootstrap, faHtml5, faCss3, faPython, faReact, faGithub, faNpm, faGit } from '@fortawesome/free-brands-svg-icons'
 import styles from "../styles/About.module.css"
-import djangoLogo from '../assets/images/django-logo.png'
-import jQueryLogo from '../assets/images/jquery-logo.png'
-import postgresLogo from '../assets/images/postgres-logo.svg'
+import djangoLogo from '../assets/logos/django-logo.png'
+import jQueryLogo from '../assets/logos/jquery-logo.png'
+import postgresLogo from '../assets/logos/postgres-logo.svg'
 
 function About() {
   return (
