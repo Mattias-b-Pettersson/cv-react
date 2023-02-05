@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.d8a9250a.css",
-    "main.js": "/cv-react/static/js/main.7d3c02ea.js",
-    "static/js/787.839f4c08.chunk.js": "/cv-react/static/js/787.839f4c08.chunk.js",
-    "static/media/yamato-image.png": "/cv-react/static/media/yamato-image.a03f456de74e31b85785.png",
-    "static/media/bg-image.jpg": "/cv-react/static/media/bg-image.18a98286186890fb3840.jpg",
-    "static/media/profile-picture.jpg": "/cv-react/static/media/profile-picture.2688819aafdd38fd9491.jpg",
-    "static/media/snsushi-image.png": "/cv-react/static/media/snsushi-image.336927898b91491948ec.png",
-    "static/media/Todo-image.png": "/cv-react/static/media/Todo-image.e0b60997e6cc9854cf42.png",
-    "static/media/man-sitting-at-desk.png": "/cv-react/static/media/man-sitting-at-desk.332b6491cb6755e272ca.png",
-    "static/media/rpsls-image.png": "/cv-react/static/media/rpsls-image.6125d2f013ec81b3de88.png",
-    "static/media/envelope.png": "/cv-react/static/media/envelope.653ba7ff218df8a65ae5.png",
-    "static/media/django-logo.png": "/cv-react/static/media/django-logo.4c677b78d12c96ea7add.png",
-    "static/media/jquery-logo.png": "/cv-react/static/media/jquery-logo.347f93d8463ec15aa303.png",
-    "static/media/tic-tac-toe-image.png": "/cv-react/static/media/tic-tac-toe-image.ac9a9b3eb25eb3022fba.png",
-    "static/media/postgres-logo.svg": "/cv-react/static/media/postgres-logo.5a15265a125ae1bceb5fa6e4520e541b.svg",
-    "static/media/layered-waves.svg": "/cv-react/static/media/layered-waves.96c6d54d02487ffe902c53bb05070d73.svg",
-    "index.html": "/cv-react/index.html",
-    "main.d8a9250a.css.map": "/cv-react/static/css/main.d8a9250a.css.map",
-    "main.7d3c02ea.js.map": "/cv-react/static/js/main.7d3c02ea.js.map",
-    "787.839f4c08.chunk.js.map": "/cv-react/static/js/787.839f4c08.chunk.js.map"
+    "main.css": "/static/css/main.fd074083.css",
+    "main.js": "/static/js/main.2fd3070d.js",
+    "static/js/787.839f4c08.chunk.js": "/static/js/787.839f4c08.chunk.js",
+    "static/media/yamato-image.png": "/static/media/yamato-image.a03f456de74e31b85785.png",
+    "static/media/bg-image.jpg": "/static/media/bg-image.18a98286186890fb3840.jpg",
+    "static/media/profile-picture.jpg": "/static/media/profile-picture.2688819aafdd38fd9491.jpg",
+    "static/media/snsushi-image.png": "/static/media/snsushi-image.336927898b91491948ec.png",
+    "static/media/Todo-image.png": "/static/media/Todo-image.e0b60997e6cc9854cf42.png",
+    "static/media/man-sitting-at-desk.png": "/static/media/man-sitting-at-desk.332b6491cb6755e272ca.png",
+    "static/media/rpsls-image.png": "/static/media/rpsls-image.6125d2f013ec81b3de88.png",
+    "static/media/envelope.png": "/static/media/envelope.653ba7ff218df8a65ae5.png",
+    "static/media/django-logo.png": "/static/media/django-logo.4c677b78d12c96ea7add.png",
+    "static/media/jquery-logo.png": "/static/media/jquery-logo.347f93d8463ec15aa303.png",
+    "static/media/tic-tac-toe-image.png": "/static/media/tic-tac-toe-image.ac9a9b3eb25eb3022fba.png",
+    "static/media/postgres-logo.svg": "/static/media/postgres-logo.5a15265a125ae1bceb5fa6e4520e541b.svg",
+    "static/media/layered-waves.svg": "/static/media/layered-waves.96c6d54d02487ffe902c53bb05070d73.svg",
+    "index.html": "/index.html",
+    "main.fd074083.css.map": "/static/css/main.fd074083.css.map",
+    "main.2fd3070d.js.map": "/static/js/main.2fd3070d.js.map",
+    "787.839f4c08.chunk.js.map": "/static/js/787.839f4c08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8a9250a.css",
-    "static/js/main.7d3c02ea.js"
+    "static/css/main.fd074083.css",
+    "static/js/main.2fd3070d.js"
   ]
 }
