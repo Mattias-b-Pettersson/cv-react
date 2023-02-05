@@ -77,8 +77,7 @@ function NavBar() {
                         Portfolio
                       </Link>
                       <Link 
-                      to='contact'
-                      offset={-100}
+                      to='contactOuter'
                       spy={true}
                       className={`${styles.navLink} me-3`}
                       activeClass="border-bottom"

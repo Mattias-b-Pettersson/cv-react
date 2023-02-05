@@ -6,6 +6,7 @@ import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
 import styles from '../styles/Contact.module.css'
 import envelope from '../assets/images/envelope.png'
+import divider from '../assets/divider/layered-waves.svg'
 
 function Contact() {
     const [buttonState, setButtonState] = useState("Skicka")
@@ -71,10 +72,12 @@ function Contact() {
     
 
     return (
-        sentMail ? (
+        <div className={styles.contactOuter} id="contactOuter">
+        <img src={divider} alt="" className='w-100' />
+        {sentMail ? (
             <>
                 <>
-                    <Container className='border-top' id="contact">
+                    <Container className='text-white' id="contact">
                         <Row className='mt-5'>
                             <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                                 <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>
@@ -98,7 +101,7 @@ function Contact() {
                 </>
             </>
         ) : (
-            <Container className='border-top mb-5 pb-5' id="contact">
+            <Container className='text-white pb-5' id="contact">
                 <Row className='mt-5'>
                     <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                         <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>
@@ -143,7 +146,8 @@ function Contact() {
                     </Col>
                 </Row>
             </Container>
-        )
+        )}
+        </div>
     )
 }
 

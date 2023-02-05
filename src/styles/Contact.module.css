@@ -19,3 +19,15 @@
 .envelope {
     max-width: 30%;
 }
+
+.contactOuter {
+    background-color: #36393f;
+}
+
+.contactOuter a {
+    color: orange !important;
+}
+
+.contactOuter a:hover {
+    color: rgb(211, 137, 1) !important;
+}
