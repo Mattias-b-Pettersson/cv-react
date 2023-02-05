@@ -14,9 +14,12 @@ function About() {
             <Col xs={12} lg={6}>
                     <h2 >Om mig</h2>
                     <p className='lead'>
-                        Hej! Mitt namn är Mattias. Jag är en ny examinerad Webbutvecklare från Code Institute universitet där jag har fått lära mig att utveckla webbapplikationer med fokus på frontend och backend.
-                        Jag har fått lära mig att använda mig av olika ramverk och bibliotek för att skapa en mer dynamisk och användarvänlig webbapplikation.
-                        Jag har även lärt mig att använda mig av olika verktyg för att skapa en mer effektiv utvecklingsprocess. 
+                        Hej! Mitt namn är Mattias Pettersson och jag är en ny examinerad Webbutvecklare från Code Institute.
+                        Under min utbildning har jag fått lära mig utveckla webbapplikationer med användarvänlighet och mångsidighet som fokus.
+                        Jag har också fått erfarenhet av arbetssätt och verktyg som hjälper hålla utvecklingsprocessen effektiv och flexibel.
+                        <br /><br />
+                        Jag är 25 år och bor i Gustavsberg strax utanför Stockholm med min fru och vår hund. Jag är en driven och målmedveten person som gillar att lära mig nya saker och utvecklas.
+                        Jag har tidigare arbetat som it-support tekniker, vilket har gett mig erfarenhet av att arbeta i team och att hantera stressiga situationer.
                     </p>
             </Col>
             <Col xs={12} lg={6}>
