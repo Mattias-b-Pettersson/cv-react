@@ -10,9 +10,9 @@ function Portfolio() {
   return (
     <Container className='border-top mt-5' id="portfolio">
         <h1 className='mt-5'>Portfolio</h1>
-        <p className='lead'>Här kan ni se mina projekt jag jobbat på. 
-        <br />
-        Om man går in på Github länken så finns det mera information i projektets ReadMe</p>
+        <p className='lead'>
+            Här kan ni se några om mina tidigare projekt. Om ni klickar in er på Github länken så hittar ni också källkoden och mera information om projektet i dess ReadMe-fil.
+        </p>
         <Row className="mt-5">
             <Col xs={12} md={6}>
                 <h2 className='mt-3'>Todo app</h2>
@@ -25,7 +25,7 @@ function Portfolio() {
                     Appen är byggd med React som front end och Django restframework som backend.
                 </p>
                     <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://github.com/Mattias-b-Pettersson/todo' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -35,7 +35,7 @@ function Portfolio() {
                             GitHub Frontend
                     </motion.a>
                     <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://github.com/Mattias-b-Pettersson/todos-backend' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -46,7 +46,7 @@ function Portfolio() {
                             GitHub Backend
                     </motion.a>
                     <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='http://m-p-todo.herokuapp.com/' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -96,7 +96,7 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://sushi-yamato.herokuapp.com/' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -131,7 +131,7 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://tic-tac-toe-matte.herokuapp.com/' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -174,7 +174,7 @@ function Portfolio() {
                     GitHub
                 </motion.a>
                 <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://mattias-b-pettersson.github.io/RockPaperScissorsLizardSpock-Game/' 
                         target='_blank' 
                         rel='noreferrer' 
@@ -208,7 +208,7 @@ function Portfolio() {
                         GitHub
                 </motion.a>
                 <motion.a
-                        className={`${styles.btnColor} me-4 btn`} 
+                        className={`${styles.btnColor} me-4 btn mt-2`} 
                         href='https://mattias-b-pettersson.github.io/Saiko-no-sushi/' 
                         target='_blank' 
                         rel='noreferrer' 
