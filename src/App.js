@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route 
-        path="/cv-react" 
+        path="/" 
         element={
           <>
           <LandingPage />
@@ -20,7 +20,11 @@ function App() {
           <Portfolio />
           <Contact />
           </>
-        } 
+        }
+        />
+      <Route
+        path="*"
+        element={<h1>404 Page not found</h1>}
         />
       </Routes>
     </div>
