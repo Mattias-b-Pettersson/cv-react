@@ -77,7 +77,7 @@ function Contact() {
         {sentMail ? (
             <>
                 <>
-                    <Container className='text-white' id="contact">
+                    <Container className='text-white pb-5' id="contact">
                         <Row className='mt-5'>
                             <Col xs={12} lg={6} fluid="true" className='mx-auto'>
                                 <h2><FontAwesomeIcon icon={faPhoneAlt} className="me-2"/>Kontaktuppgifter</h2>
@@ -90,7 +90,7 @@ function Contact() {
                             </Col>
                         </Row>
                     </Container>
-                    <div className={`${styles.thanksOuter} overflow-hidden w-100 mb-5`}>
+                    <div className={`${styles.thanksOuter} overflow-hidden w-100 pb-5`}>
                         <motion.img
                             src={envelope}
                             alt=""
