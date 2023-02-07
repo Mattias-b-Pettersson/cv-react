@@ -24,7 +24,7 @@ function App() {
         />
       <Route
         path="*"
-        element={<h1>404 Page not found</h1>}
+        element={<h1 className='mt-3 ms-3'>404 Page not found</h1>}
         />
       </Routes>
     </div>
