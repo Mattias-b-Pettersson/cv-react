@@ -11,9 +11,10 @@ import { Link } from 'react-scroll'
 
 
 function LandingPage() {
-  const characters = "abcdefghijklmnopqrstuvwxyz"
-  let interval = null;
+  
   const onHoverEnter = (event) => {
+    const characters = "abcdefghijklmnopqrstuvwxyz"
+    let interval = null;
     let iterations = 0;
     const originalText = event.target.dataset.value;
 
