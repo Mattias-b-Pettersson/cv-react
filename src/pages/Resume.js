@@ -1,5 +1,7 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import styles from '../styles/Resume.module.css'
 
 function Resume() {

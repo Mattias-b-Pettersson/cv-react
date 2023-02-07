@@ -1,5 +1,7 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import { motion } from "framer-motion"
 import styles from '../styles/LandingPage.module.css'
 import NavBar from '../components/NavBar'
