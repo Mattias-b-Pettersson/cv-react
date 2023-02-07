@@ -13,22 +13,23 @@ import { Link } from 'react-scroll'
 function LandingPage() {
   const characters = "abcdefghijklmnopqrstuvwxyz"
   let interval = null;
-  
+
   const onHoverEnter = (event) => {
     let iterations = 0;
     const originalText = event.target.dataset.value;
 
-    interval = setInterval( () => {event.target.innerText = event.target.innerText.split("").map((letter, index) => {
-      if(index < iterations) {
-        return originalText[index];
-     }
-      return letter === " " ?  letter : characters[Math.floor(Math.random() * 26)];
-    }).join("")
+    interval = setInterval(() => {
+      event.target.innerText = event.target.innerText.split("").map((letter, index) => {
+        if (index < iterations) {
+          return originalText[index];
+        }
+        return letter === " " ? letter : characters[Math.floor(Math.random() * 26)];
+      }).join("")
 
-    if(iterations >= originalText.length) {
-      clearInterval(interval);
-    }
-    iterations += 1 / 3;
+      if (iterations >= originalText.length) {
+        clearInterval(interval);
+      }
+      iterations += 1 / 3;
     }, 30)
   }
 
@@ -67,11 +68,11 @@ function LandingPage() {
                   scale: 1.1,
                   transition: { duration: 0.2 },
                 }}>
-                  <Link 
+                  <Link
                     offset={-100}
-                    to="about" 
+                    to="about"
                     className={`${styles.link} fs-2 d-block text-muted mx-auto`} data-value=
-                    "Om mig" onMouseEnter={onHoverEnter} 
+                    "Om mig" onMouseEnter={onHoverEnter}
                     onMouseLeave={onHoverLeave}
                   >
                     Om mig
@@ -79,51 +80,51 @@ function LandingPage() {
                 </motion.div>
 
                 <motion.div whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.2},
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
                 }}>
-                  <Link 
+                  <Link
                     offset={-100}
-                    to="resume" 
-                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} 
-                    data-value="Resume" 
-                    onMouseEnter={onHoverEnter} 
+                    to="resume"
+                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`}
+                    data-value="Resume"
+                    onMouseEnter={onHoverEnter}
                     onMouseLeave={onHoverLeave}
-                    >
-                      Resume
-                    </Link>
+                  >
+                    Resume
+                  </Link>
                 </motion.div>
 
                 <motion.div whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.2 },
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
                 }}>
-                  <Link 
+                  <Link
                     offset={-100}
-                    to="portfolio" 
-                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} 
-                    data-value="Portfolio" 
-                    onMouseEnter={onHoverEnter} 
+                    to="portfolio"
+                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`}
+                    data-value="Portfolio"
+                    onMouseEnter={onHoverEnter}
                     onMouseLeave={onHoverLeave}
-                    >
-                      Portfolio
-                    </Link>
+                  >
+                    Portfolio
+                  </Link>
                 </motion.div>
 
                 <motion.div whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.2 },
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
                 }}>
-                  <Link 
+                  <Link
                     offset={-100}
-                    to="contact" 
-                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`} 
-                    data-value="Kontakt" 
-                    onMouseEnter={onHoverEnter} 
+                    to="contact"
+                    className={`${styles.link} fs-2 d-block text-muted mx-auto mt-4`}
+                    data-value="Kontakt"
+                    onMouseEnter={onHoverEnter}
                     onMouseLeave={onHoverLeave}
-                    >
-                      Kontakt
-                    </Link>
+                  >
+                    Kontakt
+                  </Link>
                 </motion.div>
               </div>
             </Col>
