@@ -13,6 +13,7 @@ import { Link } from 'react-scroll'
 function LandingPage() {
   const characters = "abcdefghijklmnopqrstuvwxyz"
   let interval = null;
+  
   const onHoverEnter = (event) => {
     let iterations = 0;
     const originalText = event.target.dataset.value;
@@ -43,12 +44,12 @@ function LandingPage() {
         <NavBar />
         <Container id="home" className={`${styles.ContainerHeight} d-flex align-items-center`}>
           <Row className='w-100'>
-            <Col xs={12} md={3} className='d-flex align-items-center justify-content-center'>
-              <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-md-auto`}>
+            <Col xs={12} md={4} lg={3} className='d-flex align-items-center justify-content-center'>
+              <div className={`${styles.imageOuter} d-flex align-items-center justify-content-center ms-xl-auto`}>
                 <div className={`${styles.image}`} />
               </div>
             </Col>
-            <Col className='d-flex align-items-center px-2' xs={12} md={6}>¨
+            <Col className='d-flex align-items-center px-2' xs={12} md={4} lg={6}>
               <div>
                 <h1 className='d-block text-white mx-auto'>Hej! <br />Mitt namn är <span className={styles.name}>Mattias</span></h1>
                 <p className='lead text-white'>Jag är Fullstack utvecklare med fokus på React som frontend och Django som backend.</p>
@@ -60,7 +61,7 @@ function LandingPage() {
                 </a>
               </div>
             </Col >
-            <Col xs={12} md={3}>
+            <Col xs={12} md={4} lg={3}>
               <div>
                 <motion.div whileHover={{
                   scale: 1.1,
