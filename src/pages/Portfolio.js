@@ -119,6 +119,50 @@ function Portfolio() {
             </Row>
             <Row className="mt-5">
                 <Col xs={12} md={6}>
+                    <h2 className='mt-3'>Install Elteknik</h2>
+                    <p className='mb-0'>
+                        Install Eltekniks hemsida som planeras för att gå live och byggas ut i framtiden.
+                        Sidan är fortfarande under utveckling i samråd med företaget.
+                    </p>
+                    <p className='mt-3'>
+                        Sidan är byggd med React.
+                    </p>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn mt-2`}
+                        href='https://github.com/Mattias-b-Pettersson/install'
+                        target='_blank'
+                        rel='noreferrer'
+                        whileHover={{ scale: 1.1, rotate: "-5deg" }}
+                        whileTap={{ scale: 0.9, rotate: "5deg" }}
+                    >
+                        GitHub
+                    </motion.a>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn mt-2`}
+                        href='https://mattias-b-pettersson.github.io/install/'
+                        target='_blank'
+                        rel='noreferrer'
+                        whileHover={{ scale: 1.1, rotate: "5deg" }}
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                        Live Demo
+                    </motion.a>
+                    <h4 className='mt-5'>Techstack som använts</h4>
+                    <div className='mb-4'>
+                        <FontAwesomeIcon icon={faReact} className={`fs-2 me-3`} alt="react" />
+                        <FontAwesomeIcon icon={faBootstrap} className={`fs-2 me-3`} alt="bootstrap" />
+                        <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html" />
+                        <FontAwesomeIcon icon={faCss3} className={`fs-2 me-3`} alt="css" />
+                    </div>
+                </Col>
+                <Col xs={12} md={6}>
+                    <div className={`${styles.installImage} ${styles.image}`}>
+                        {/* image div */}
+                    </div>
+                </Col>
+            </Row>
+            <Row className="mt-5">
+                <Col xs={12} md={6}>
                     <h2 className='mt-5'>Tic Tac Toe</h2>
                     <p>
                         Tic Tac Toe spel som är skapat med Python.

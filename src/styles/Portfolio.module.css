@@ -29,6 +29,10 @@
     background-image: url(../assets/project-images/snsushi-image.png);
 }
 
+.installImage {
+    background-image: url(../assets/project-images/install-elteknik-image.png);
+}
+
 .icons > p {
     font-family: "Quicksand", sans-serif;
 }
