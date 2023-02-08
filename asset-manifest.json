@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.19319be7.css",
-    "main.js": "/static/js/main.ddfc1e68.js",
+    "main.css": "/static/css/main.5402bd61.css",
+    "main.js": "/static/js/main.ab559125.js",
     "static/js/787.839f4c08.chunk.js": "/static/js/787.839f4c08.chunk.js",
     "static/media/yamato-image.png": "/static/media/yamato-image.a03f456de74e31b85785.png",
     "static/media/bg-image.jpg": "/static/media/bg-image.18a98286186890fb3840.jpg",
     "static/media/snsushi-image.png": "/static/media/snsushi-image.336927898b91491948ec.png",
+    "static/media/install-elteknik-image.png": "/static/media/install-elteknik-image.67cc3e28d3ce86697140.png",
     "static/media/Todo-image.png": "/static/media/Todo-image.e0b60997e6cc9854cf42.png",
     "static/media/man-sitting-at-desk.png": "/static/media/man-sitting-at-desk.332b6491cb6755e272ca.png",
     "static/media/profile-picture.jpg": "/static/media/profile-picture.a982d95f386574a6afef.jpg",
@@ -17,12 +18,12 @@
     "static/media/postgres-logo.svg": "/static/media/postgres-logo.5a15265a125ae1bceb5fa6e4520e541b.svg",
     "static/media/layered-waves.svg": "/static/media/layered-waves.96c6d54d02487ffe902c53bb05070d73.svg",
     "index.html": "/index.html",
-    "main.19319be7.css.map": "/static/css/main.19319be7.css.map",
-    "main.ddfc1e68.js.map": "/static/js/main.ddfc1e68.js.map",
+    "main.5402bd61.css.map": "/static/css/main.5402bd61.css.map",
+    "main.ab559125.js.map": "/static/js/main.ab559125.js.map",
     "787.839f4c08.chunk.js.map": "/static/js/787.839f4c08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19319be7.css",
-    "static/js/main.ddfc1e68.js"
+    "static/css/main.5402bd61.css",
+    "static/js/main.ab559125.js"
   ]
 }
