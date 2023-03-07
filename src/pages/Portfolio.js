@@ -162,7 +162,13 @@ function Portfolio() {
                 </Col>
             </Row>
             <Row className="mt-5">
-                <Col xs={12} md={6}>
+                
+                <Col xs={12} md={6} className="order-2 order-md-1">
+                    <div className={`${styles.ticTacToeImage} ${styles.image}`}>
+                        {/* image div */}
+                    </div>
+                </Col>
+                <Col xs={12} md={6} className="order-1 order-md-2">
                     <h2 className='mt-5'>Tic Tac Toe</h2>
                     <p>
                         Tic Tac Toe spel som är skapat med Python.
@@ -192,19 +198,11 @@ function Portfolio() {
                         <FontAwesomeIcon icon={faPython} className={`fs-1 me-3 mb-5`} />
                     </div>
                 </Col>
-                <Col xs={12} md={6}>
-                    <div className={`${styles.ticTacToeImage} ${styles.image}`}>
-                        {/* image div */}
-                    </div>
-                </Col>
+
             </Row>
             <Row className="mt-5">
-                <Col xs={12} md={6} className="order-2 order-md-1">
-                    <div className={`${styles.rpslsImage} ${styles.image}`}>
-                        {/* image div */}
-                    </div>
-                </Col>
-                <Col xs={12} md={6} className="order-1 order-md-2">
+                
+                <Col xs={12} md={6}>
                     <h2 className='mt-5'>Rock paper scissors lizard spock</h2>
                     <p>
                         Rock paper scissors lizard spock spel som är skapat med JavaScript.
@@ -237,9 +235,20 @@ function Portfolio() {
                         <FontAwesomeIcon icon={faJs} className={`fs-1 ms-3`} />
                     </div>
                 </Col>
+                <Col xs={12} md={6}>
+                    <div className={`${styles.rpslsImage} ${styles.image}`}>
+                        {/* image div */}
+                    </div>
+                </Col>
+
             </Row>
             <Row className="mt-5">
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} className="order-2 order-md-1">
+                    <div className={`${styles.snSushiImage} ${styles.image}`}>
+                        {/* image div */}
+                    </div>
+                </Col>
+                <Col xs={12} md={6} className="order-1 order-md-2">
                     <h2 className='mt-5'>Saikō No Sushi</h2>
                     <p>
                         Hemsida riktat mot resturangen Saikō No Sushi.
@@ -270,11 +279,7 @@ function Portfolio() {
                         <FontAwesomeIcon icon={faCss3} className={`fs-1`} />
                     </div>
                 </Col>
-                <Col xs={12} md={6}>
-                    <div className={`${styles.snSushiImage} ${styles.image}`}>
-                        {/* image div */}
-                    </div>
-                </Col>
+                
             </Row>
         </Container>
     )
