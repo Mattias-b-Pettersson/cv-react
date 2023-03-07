@@ -20,9 +20,8 @@ function About() {
                         Under min utbildning har jag fått lära mig utveckla webbapplikationer med användarvänlighet och mångsidighet som fokus.
                         Jag har också fått erfarenhet av arbetssätt och verktyg som hjälper hålla utvecklingsprocessen effektiv och flexibel.
                         <br /><br />
-                        Jag är 25 år och bor i Gustavsberg strax utanför Stockholm med min fru och vår hund. Jag är en driven och målmedveten person som gillar att lära mig nya saker och utvecklas.
-                        Jag har tidigare arbetat som it-support tekniker, vilket har gett mig erfarenhet av att arbeta i team och att hantera stressiga situationer.
-                    </p>
+                        Jag är 25 år och bor i Gustavsberg strax utanför Stockholm med min fru och vår hund. Som person är jag driven samt målmedveten och gillar att lära mig nya saker som får mig att utvecklas.
+                        Tidigare har jag arbetat som it-support tekniker, vilket har gett mig erfarenhet av att arbeta i team och att hantera stressiga situationer.
                 </Col>
                 <Col xs={12} lg={6}>
                     <Row>
