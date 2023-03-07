@@ -22,6 +22,7 @@ function About() {
                         <br /><br />
                         Jag är 25 år och bor i Gustavsberg strax utanför Stockholm med min fru och vår hund. Som person är jag driven samt målmedveten och gillar att lära mig nya saker som får mig att utvecklas.
                         Tidigare har jag arbetat som it-support tekniker, vilket har gett mig erfarenhet av att arbeta i team och att hantera stressiga situationer.
+                    </p>
                 </Col>
                 <Col xs={12} lg={6}>
                     <Row>
