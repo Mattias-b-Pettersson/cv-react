@@ -29,8 +29,9 @@ function Resume() {
                         Utbildning
                     </h2>
                     <h3 className='mb-0'>Code institute</h3>
-                    <p className='text-muted mt-0'>Universitet</p>
-                    <p>Fullstack Webbutveckling</p>
+                    <p className='text-muted mt-0'>Universitet - Code Institute</p>
+                    <p>Fullstack Webbutveckling: <a href='https://www.credential.net/6223157b-81ef-4693-b49b-b54170635f7e' target="_blank">Diplom</a></p>
+                    
                 </Col>
                 <Col xs={6} className={`${styles.image} d-xs-none d-md-inline`}>
                     {/* img div */}
