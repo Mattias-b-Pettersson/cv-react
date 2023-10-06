@@ -8,8 +8,10 @@ import styles from "../styles/About.module.css"
 import djangoLogo from '../assets/logos/django-logo.png'
 import jQueryLogo from '../assets/logos/jquery-logo.png'
 import postgresLogo from '../assets/logos/postgres-logo.svg'
+import seleniumLogo from '../assets/logos/selenium-logo.png'
 
 function About() {
+
     return (
         <Container id='about'>
             <Row className='mt-5'>
@@ -52,6 +54,10 @@ function About() {
                             <div className={`${styles.icons} mt-4 text-center`}>
                                 <img src={djangoLogo} className="mx-auto" height="35" alt="" aria-hidden="true" />
                                 <p className='fs-3'>Django</p>
+                            </div>
+                            <div className={`${styles.icons} mt-4 text-center`}>
+                                <img src={seleniumLogo} className="mx-auto" height="35" alt="" aria-hidden="true" />
+                                <p className='fs-3'>Selenium</p>
                             </div>
 
                         </Col>

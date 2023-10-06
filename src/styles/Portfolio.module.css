@@ -33,6 +33,10 @@
     background-image: url(../assets/project-images/install-elteknik-image.png);
 }
 
+.sosKcImage {
+    background-image: url(../assets/project-images/sos-kc-image.png);
+}
+
 .icons > p {
     font-family: "Quicksand", sans-serif;
 }
