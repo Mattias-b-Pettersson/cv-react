@@ -30,11 +30,11 @@ function Portfolio() {
                         Programmet är skapat för att underlätta för de som sitter med kontohantering på Serviceförvaltningen att hantera konton.
                         Programmet är skapat med Python, Selenium och har ett grafiskt användargränssnitt som är skapat med Tkinter.
                         <br /> <br />
-                        Tyvärr finns ingen live demo version då det är internasystem som används.
+                        Tyvärr finns ingen live demo version då det är interna system som används.
                     </p>
                     <motion.a
                         className={`${styles.btnColor} me-4 btn mt-2`}
-                        href=''
+                        href='https://github.com/Mattias-b-Pettersson/SOS-KC-Valmeny'
                         target='_blank'
                         rel='noreferrer'
                         whileHover={{ scale: 1.1, rotate: "-5deg" }}
