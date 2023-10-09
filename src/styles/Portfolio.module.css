@@ -37,6 +37,10 @@
     background-image: url(../assets/project-images/sos-kc-image.png);
 }
 
+.tradarImage {
+    background-image: url(../assets/project-images/tradar-image.png);
+}
+
 .icons > p {
     font-family: "Quicksand", sans-serif;
 }

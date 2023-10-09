@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import styles from '../styles/Portfolio.module.css'
 import djangoLogo from '../assets/logos/django-logo.png'
+import nextJsLogo from '../assets/logos/next.js.png'
+import tailwindLogo from '../assets/logos/tailwind-logo.png'
 import { motion } from 'framer-motion'
 
 function Portfolio() {
@@ -17,6 +19,51 @@ function Portfolio() {
                 <br /> <br />
                 Tyvärr har vissa av projekten inte en live demo version då Heroku har börjat ta betalt för att ha flera projekt uppe samtidigt.
             </p>
+
+            <Row className="mt-5">
+                <Col xs={12} md={6}>
+                    <h2 className='mt-3'>Trådar</h2>
+                    <p className='mb-0'>
+                        En hemsida som är gjord för att efterlikna Metas nya hemsida Threads. Projektet är inte klart.
+                    </p>
+                    <p className='mt-3'>
+                        Sidan är byggd med Next.js, tailwind och MongoDB.
+                    </p>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn mt-2`}
+                        href='https://github.com/Mattias-b-Pettersson/tradar'
+                        target='_blank'
+                        rel='noreferrer'
+                        whileHover={{ scale: 1.1, rotate: "-5deg" }}
+                        whileTap={{ scale: 0.9, rotate: "5deg" }}
+                    >
+                        GitHub
+                    </motion.a>
+                    <motion.a
+                        className={`${styles.btnColor} me-4 btn mt-2`}
+                        href='https://tradar-g2arfx0to-mattias-b-petterssons-projects.vercel.app/'
+                        target='_blank'
+                        rel='noreferrer'
+                        whileHover={{ scale: 1.1, rotate: "5deg" }}
+                        whileTap={{ scale: 0.9, rotate: "-5deg" }}
+                    >
+                        Live Demo
+                    </motion.a>
+                    <h4 className='mt-5'>Techstack som använts</h4>
+                    <div className='pb-4'>
+                        <img src={nextJsLogo} className={`${styles.icons} mb-2 me-3`} height="26" alt="django" aria-hidden="true" />
+                        <img src={tailwindLogo} className={`${styles.icons} mb-2 me-3`} height="24" alt="django" aria-hidden="true" />
+                        <FontAwesomeIcon icon={faReact} className={`fs-2 me-3`} alt="react" />
+                        <FontAwesomeIcon icon={faHtml5} className={`fs-2 me-3`} alt="html" />
+                        <FontAwesomeIcon icon={faCss3} className={`fs-2 me-3`} alt="css" />
+                    </div>
+                </Col>
+                <Col xs={12} md={6}>
+                    <div className={`${styles.tradarImage} ${styles.image}`}>
+                        {/* image div */}
+                    </div>
+                </Col>
+            </Row>
 
             <Row className="mt-5">
                 <Col xs={12} md={6} className="order-2 order-md-1">
