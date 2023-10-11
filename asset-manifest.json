@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c3abadf.css",
-    "main.js": "/static/js/main.f42225d5.js",
+    "main.js": "/static/js/main.b5296eba.js",
     "static/js/787.839f4c08.chunk.js": "/static/js/787.839f4c08.chunk.js",
     "static/media/yamato-image.png": "/static/media/yamato-image.a03f456de74e31b85785.png",
     "static/media/bg-image.jpg": "/static/media/bg-image.18a98286186890fb3840.jpg",
@@ -23,11 +23,11 @@
     "static/media/layered-waves.svg": "/static/media/layered-waves.96c6d54d02487ffe902c53bb05070d73.svg",
     "index.html": "/index.html",
     "main.4c3abadf.css.map": "/static/css/main.4c3abadf.css.map",
-    "main.f42225d5.js.map": "/static/js/main.f42225d5.js.map",
+    "main.b5296eba.js.map": "/static/js/main.b5296eba.js.map",
     "787.839f4c08.chunk.js.map": "/static/js/787.839f4c08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c3abadf.css",
-    "static/js/main.f42225d5.js"
+    "static/js/main.b5296eba.js"
   ]
 }
