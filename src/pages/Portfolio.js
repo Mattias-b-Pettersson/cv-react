@@ -27,7 +27,7 @@ function Portfolio() {
                         En hemsida som är gjord för att efterlikna Metas nya hemsida Threads. Projektet är inte klart.
                     </p>
                     <p className='mt-3'>
-                        Sidan är byggd med Next.js, tailwind och MongoDB.
+                        Sidan är byggd med Next.js med Typescript, tailwind och MongoDB.
                     </p>
                     <motion.a
                         className={`${styles.btnColor} me-4 btn mt-2`}
